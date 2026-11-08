@@ -75,42 +75,7 @@ Backend runs at `http://localhost:8000`
 
 Frontend runs at `http://localhost:5173`
 
-API docs at `http://localhost:8000/docs`
 
----
-
-## API endpoints
-
-| Endpoint | Description |
-|---|---|
-| `GET /driverfingerprint?driver=VER&year=2023` | Full behavioral fingerprint for a driver across a season |
-| `GET /drivervsdriver/VER/LEC/2023/Monaco` | Head to head lap comparison |
-| `GET /safetycarinsight?driver1=VER&driver2=LEC&race=Monaco&year=2023` | Restart aggression comparison |
-| `GET /tyremgmt?driver1=VER&driver2=LEC&race=Monaco&year=2023` | Tyre management and degradation analysis |
-| `GET /seasonevol?driver=LEC&year=2023&race=Monaco` | Season or career evolution for a driver |
-
----
-
-## Project status
-
-Currently in active development.
-
-- [x] Backend: FastAPI setup complete
-- [x] FastF1 integration complete
-- [x] Driver vs driver speed trace chart working
-- [ ] Database: PostgreSQL integration pending
-- [ ] Remaining 4 features in progress
-- [ ] Frontend: UI design in progress
-
----
-
-## Roadmap
-
-**Phase 2**
-- Sim racing data upload — compare your own laps against real F1 drivers
-- Weather and track conditions overlay
-- User authentication and saved comparisons
-- Shareable comparison links
 
 ---
 
